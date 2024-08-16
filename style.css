@@ -388,3 +388,74 @@ button:hover {
   grid-template-columns: repeat(3,1fr);
 }
 /* team section ends  */
+
+/* footer atart  */
+.main-footer{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.foot-dep h1{
+  color: rgb(230, 83, 60);;
+  font-size: 4.5rem;
+  font-weight: 800;
+  text-align: left;
+}
+.foot-dep p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.foot-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.foot-nav h2{
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+}
+.foot-nav ul{
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.foot-nav a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: left;
+  gap: 10;
+}
+hr{
+  width: 80%;
+  margin: 50px auto 50px auto;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copy-right{
+  width: 80%;
+  margin:0 auto ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copy-right p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+@media (max-width: 576px){
+  .main-footer{
+    flex-direction: column;
+  }
+  .foot-nav{
+    flex-direction: column;
+  }
+}
+/* footer ends  */
