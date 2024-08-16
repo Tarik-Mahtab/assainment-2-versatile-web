@@ -12,7 +12,94 @@
 body{
   background-color: black
 }
+/* header start  */
+header{
+  width: 100%;
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  padding-top: 50px;
+}
+.navbar{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.fitness{
+  color: rgb(230, 83, 60);
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-align: left;
+}
+.navbar ul{
+  list-style: none;
+  display: flex;
+  margin-bottom: 100px;
+}
+.navbar li{
+  padding: 0rem 1rem;
+}
+.navbar a{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 120%; 
+  text-decoration: none;
+}
+.home{
+  border-radius: 2.5rem;
+  background: rgb(230, 83, 60);
+  padding: 8px 20px 8px 20px;
+}
+.banner{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.banner-dep{
+  width: 50%;
+}
+.banner-dep h1{
+  color: rgb(255, 255, 255);
+  font-size: 4.5rem;
+  font-weight: 900;
+  text-align: left;  
+}
+.banner-dep p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+  text-align: left; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.join{
+  padding: 16px 40px 16px 40px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+}
+.download{
+  padding: 16px 40px 16px 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  fill-opacity: 100%;
+}
+@media (max-width: 576px){
+  .navbar ul{
+    display: none ;
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .banner-dep{
+    width: 100%;
+  }
+}
 
+/* header ends  */
 /* section Change Your Habits start */
 .habit{
 width: 80%;
@@ -128,6 +215,7 @@ margin: 0 auto;
 @media (max-width: 576px) {
   .run-main{
     flex-direction: column;
+    width: 100%;
   }
   
 }
@@ -294,5 +382,9 @@ button:hover {
   text-align: center; 
   margin-top: 20px;
   margin-bottom: 55px;
+}
+.team-pic{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 /* team section ends  */
