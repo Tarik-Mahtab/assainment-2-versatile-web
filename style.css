@@ -132,3 +132,167 @@ margin: 0 auto;
   
 }
 /* section run ends */
+
+/* /* bmi section start   */
+.bmi-header{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.bmi-header h1{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 100px;
+}
+.bmi-header p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
+  margin: 50px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container and Layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.bmi-chart, .bmi-calculator {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  max-width: 100%;
+}
+
+.bmi-chart {
+  width: 300px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+table, th, td {
+  border: 1px solid #444;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #444;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input, select, button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  font-size: 0.9em;
+  flex: 1;
+}
+
+button {
+  background-color: #e76f51;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #f86d43;
+}
+
+/* Result Styling */
+#bmiResult {
+  margin-top: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .bmi-chart, .bmi-calculator {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .input-row {
+      flex-direction: column;
+  }
+}
+
+/* bmi section ends  */
+
+/* team section start */
+.team-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+.team-header h1{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 100px;
+}
+.team-header p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center; 
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+/* team section ends  */
